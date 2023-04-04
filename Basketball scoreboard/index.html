@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Graduate&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <!-- What our scoreboard is meant to look like:
+        https://www.etsy.com/au/listing/188098814/printable-basketball-scoreboard-->
+        <h1 id="title" class="red-text">The Royal Arena</h1>
+        <div id="scoreboard">   
+            <h2 id="time" class="red-text">00:00</h2>
+            <div id="score-top">
+                <img id="nets-img" src="nets-logo.png" class="img-size" alt="nets logo">
+                <img id="lakers-img" src="lakers-logo.png" class="img-size" alt="lakers logo">
+            </div>
+            <div id="score-mid-text">
+                <h2 id="home-points-text">Nets</h2>
+                <h2 id="shot-clock-text" >Shot clock</h2>
+                <h2 id="period-text">period</h2>
+                <h2 id="away-points-text">Lakers</h2>
+            </div>
+            <div id="score-mid-numbers">
+                <h2 id="home-points" class="border-around-numbers">000</h2>
+                <h2 id="shot-clock" class="red-text border-around-numbers">00</h2>
+                <h2 id="period" class="border-around-numbers">00</h2>
+                <h2 id="away-points" class="border-around-numbers">000</h2>
+            </div>
+            <div id="score-bot">
+                <h2 id="home-fouls">Fouls</h2>
+                <h2 id="home-tol">T.O.L</h2>
+                <h2 id="player">Player</h2>
+                <h2 id="player-fouls">Fouls</h2>
+                <h2 id="away-tol">T.O.L</h2>
+                <h2 id="away-fouls">Fouls</h2>
+            </div>
+        </div>
+        <div id="score-buttons">
+            <button id="home-1" class="button-attributes" onclick="homePlus1()">Home: +1</button>
+            <button id="home-3" class="button-attributes" onclick="homePlus3()">Home: +3</button>
+            <button id="away-1" class="button-attributes" onclick="awayPlus1()">Away: +1</button>
+            <button id="away-3" class="button-attributes"onclick="awayPlus3()">Away: +3</button>
+        </div>
+        <script type="module" src="index.js"></script>
+    </body>
+</html>
