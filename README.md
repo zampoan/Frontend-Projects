@@ -3,4 +3,6 @@ Collection of Front End Projects
 
 Daily Dribble
 - A mock signup page
-- Basketball scoring system
+
+Basketball scoreboard
+- A scoring system for basketball
