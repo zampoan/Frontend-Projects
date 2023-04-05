@@ -1,0 +1,48 @@
+body {
+    background-color: #a8dadc;
+    font-family: 'Open Sans', sans-serif;
+    color: #22223b;
+}
+
+input {
+    background-color: #1d3557;
+    color:aliceblue;
+}
+
+button {
+    width: 310px;
+    height: 30px;
+    margin-top: 10px;
+    font-weight: bold;
+    background-color: #a8dadc;
+    font-family: 'Open Sans', sans-serif;
+    color: #22223b
+}
+
+#options-div {
+    background-color: #457b9d;
+    margin: 200px auto;
+    padding: 20px;
+    width: 310px;
+    text-align: center;
+    border: 2px solid #22223b ;
+    box-shadow: 10px 10px 5px #22223b;
+}
+
+#password-output {
+    width: 300px;
+    height: 30px;
+}
+
+#num-box {
+    width: 30px;
+    height: 20px;  
+}
+
+.options {
+    display: flex;
+    justify-content: space-between;
+    align-items     : center;
+    font-weight: bold;
+}
+

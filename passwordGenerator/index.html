@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+        <title>Password Generator</title>
+    </head>
+    <body>
+        <div id="options-div">
+            <h1>Password generator</h1>
+            <input id="password-output" type="text">
+            <div class="options">
+                <p>Password length</p>
+                <input id="num-box" type="number">
+            </div>
+            <div class="options">
+                <p>Include uppercase letters</p>
+                <input id="check-upper" type="checkbox">
+            </div>
+            <div class="options">
+                <p>Include lowercase letters</p>
+                <input id="check-lower" type="checkbox">
+            </div>
+            <div class="options">
+                <p>Include numbers</p>
+                <input id="check-number" type="checkbox">
+            </div>
+            <div class="options">
+                <p>Include symbols</p>
+                <input id="check-symbol" type="checkbox">
+            </div>
+            <button onclick="generatePassword()">Generate Password</button>
+        </div>
+        
+        <script src="index.js"></script>
+    </body>
+</html>
