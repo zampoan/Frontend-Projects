@@ -6,3 +6,9 @@ Daily Dribble
 
 Basketball scoreboard
 - A scoring system for basketball
+
+Blackjack
+- A game about blackjack
+
+Password Generator
+- A random password generator
