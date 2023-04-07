@@ -12,3 +12,6 @@ Blackjack
 
 Password Generator
 - A random password generator
+
+Rating Component
+- A page which directs to another page once the submit button is clicked and returns the review.
