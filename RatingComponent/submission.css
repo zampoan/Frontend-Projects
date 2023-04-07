@@ -1,0 +1,56 @@
+body {
+    background: #131519;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    color: #DBDCDE;
+    padding: 40px 20px 0px 20px;
+}
+
+p {
+    color: #565E6A;
+    padding: 0 20px;
+}
+#container {
+    background: linear-gradient(#1F2631, #171E27);;
+    border-radius: 20px;
+    max-width: 300px;
+    height: 300px;
+    margin: 300px auto;
+}
+
+.btns{
+    text-align: center;
+}
+
+.rating-btn {
+    background-color: #273139;
+    color: #565E6A;
+    border-radius: 20px;
+    border: none;
+    height: 40px;
+    width: 40px;
+    margin: 0 5px;
+    text-align: center;
+}
+
+#submit-btn {
+    background-color: #FA7712;
+    color: #DBDCDE;
+    width: 90%;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    margin: 10px 0;
+}
+
+#submit-btn:hover {
+    background-color: #DBDCDE;
+    color:#FA7712;
+}
+
+.rating-btn:hover, .rating-btn.active {
+    background-color: yellow;
+    color: black;
+}
